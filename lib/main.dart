@@ -15,6 +15,7 @@ import 'examples/page.dart';
 import 'examples/place_circle.dart';
 import 'examples/place_symbol.dart';
 import 'examples/scrolling_map.dart';
+import 'examples/example_app.dart';
 
 final List<ExamplePage> _allPages = <ExamplePage>[
   MapUiPage(),
@@ -25,6 +26,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   LinePage(),
   PlaceCirclePage(),
   ScrollingMapPage(),
+  ExampleAppPage(),
 ];
 
 class MapsDemo extends StatelessWidget {
